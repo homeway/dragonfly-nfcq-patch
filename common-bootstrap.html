@@ -10,20 +10,21 @@
     <title>广东省产权交易集团有限公司</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-    <script src="/static/js/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-{% autoescape off %}
-    {{ embed.css_source }}
-{% endautoescape %}
-{% autoescape off %}
-    {{ embed.js_source }}
-{% endautoescape %}
-{% autoescape off %}
-    {{ embed.html_source }}
-{% endautoescape %}
-
+  {% autoescape off %}
+      {{ embed.css_source }}
+  {% endautoescape %}
+  {% autoescape off %}
+      {{ embed.js_source }}
+  {% endautoescape %}
+  {% autoescape off %}
+      {{ embed.html_source }}
+  {% endautoescape %}
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="/static/js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
