@@ -1,0 +1,159 @@
+desktop:
+  - path: "index_left_right.html"
+    preview: "index_left_right.preview.html"
+    title: "首页布局-左右结构"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+      - data: "js"
+        type: "javascript"
+        title: "Javascript脚本"
+        icon: '/static/images/js.png'
+      - data: "picture_files_source"
+        type: "photos"
+        title: "图片列表"
+        icon: '/static/images/photos.png'
+  - path: "index_top_bottom.html"
+    preview: "index_top_bottom.preview.html"
+    title: "首页布局-上下结构"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+mobile:
+  - path: "test.html"
+    preview: "index_left_right.preview.html"
+    title: "应用测试"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+      - data: "picture_files_source"
+        type: "photos"
+        title: "图片列表"
+        icon: '/static/images/photos.png'
+touch:
+  - path: "common-bootstrap.html"
+    preview: "common-bootstrap.preview.html"
+    title: "普通bootstrap页面"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "独立HTML内容"
+        icon: '/static/images/html.png'
+      - data: "js_source"
+        type: "javascript"
+        title: "Javascript脚本"
+        icon: '/static/images/js.png'
+      - data: "css_source"
+        type: "css"
+        title: "css"
+        icon: '/static/images/css.png'
+  - path: "index/bottom.html"
+    preview: ""
+    title: "默认首页"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "menu/left.html"
+    preview: ""
+    title: "目录页 - 左标题右HTML"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "menu/left-auto.html"
+    preview: ""
+    title: "目录页 - 左标题右滚动"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "menu/three-column.html"
+    preview: ""
+    title: "目录页 - 三栏"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "menu/long-title.html"
+    preview: ""
+    title: "目录页 - 长标题"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "content/single.html"
+    preview: ""
+    title: "内容页 - 单栏HTML"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "content/double.html"
+    preview: ""
+    title: "内容页 - 双栏滚动表格"
+    content:
+      - data: "html_source_head1"
+        type: "html"
+        title: "滚动表头-左侧"
+        icon: '/static/images/html.png'
+      - data: "html_source_data1"
+        type: "html"
+        title: "滚动数据-左侧"
+        icon: '/static/images/html.png'
+      - data: "html_source_head2"
+        type: "html"
+        title: "滚动表头-右侧"
+        icon: '/static/images/html.png'
+      - data: "html_source_data2"
+        type: "html"
+        title: "滚动数据-右侧"
+        icon: '/static/images/html.png'
+  - path: "content/table-auto.html"
+    preview: ""
+    title: "内容页 - 单栏滚动表格"
+    content:
+      - data: "html_source_head"
+        type: "html"
+        title: "滚动表头-左侧"
+        icon: '/static/images/html.png'
+      - data: "html_source_data"
+        type: "html"
+        title: "滚动数据-左侧"
+        icon: '/static/images/html.png'
+  - path: "content/auto.html"
+    preview: ""
+    title: "内容页 - 单栏滚动HTML"
+    content:
+      - data: "html_source"
+        type: "html"
+        title: "HTML内容"
+        icon: '/static/images/html.png'
+  - path: "content/photos.html"
+    preview: ""
+    title: "内容页 - 多图"
+    content:
+      - data: "picture_files_source"
+        type: "photos"
+        title: "图片列表"
+        icon: '/static/images/photos.png'
+  - path: "content/big-photo.html"
+    preview: ""
+    title: "内容页 - 大图"
+    content:
+      - data: "picture_files_source"
+        type: "photos"
+        title: "图片列表"
+        icon: '/static/images/photos.png'
